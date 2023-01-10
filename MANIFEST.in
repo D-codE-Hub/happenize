@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include happenize *.css
+recursive-include happenize *.csv
+recursive-include happenize *.html
+recursive-include happenize *.ico
+recursive-include happenize *.js
+recursive-include happenize *.json
+recursive-include happenize *.md
+recursive-include happenize *.png
+recursive-include happenize *.py
+recursive-include happenize *.svg
+recursive-include happenize *.txt
+recursive-exclude happenize *.pyc
