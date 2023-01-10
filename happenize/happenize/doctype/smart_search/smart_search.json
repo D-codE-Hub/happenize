@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-10 14:19:21.752809",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "excel_import_section",
+  "excel_file",
+  "column_break_3",
+  "search",
+  "sales_orders_section",
+  "sales_order"
+ ],
+ "fields": [
+  {
+   "fieldname": "excel_file",
+   "fieldtype": "Attach",
+   "label": "Excel File"
+  },
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Table",
+   "label": "Sales Order",
+   "options": "Smart Search Table"
+  },
+  {
+   "fieldname": "excel_import_section",
+   "fieldtype": "Section Break",
+   "label": "Excel Import"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "search",
+   "fieldtype": "Button",
+   "label": "Search "
+  },
+  {
+   "fieldname": "sales_orders_section",
+   "fieldtype": "Section Break",
+   "label": "Sales Orders "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-01-10 14:23:15.566435",
+ "modified_by": "Administrator",
+ "module": "Happenize",
+ "name": "Smart Search",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
